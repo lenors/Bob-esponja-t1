@@ -120,8 +120,7 @@ main ul{
     height: 30vh;
     color:#D56E0E;
     font-weight: 600;
-   
-    
+
 }
 
 .boxText li:hover{
@@ -135,4 +134,7 @@ main ul{
     height: 1px;
     width: 150px;
     color:#6989964D;
+}
+.imagens{
+    display: flex;
 }
