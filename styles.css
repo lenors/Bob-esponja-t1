@@ -46,8 +46,7 @@ header ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
-    
+
 }
 
 header li{
@@ -77,6 +76,7 @@ header input::placeholder{
 main{
     height: 485px;
     background-color: #FCE5AC;
+    
 }
 
 
@@ -123,18 +123,42 @@ main ul{
 
 }
 
+
 .boxText li:hover{
     background-color:#F4BC81;
     cursor:pointer;
 }
-
+h2{
+    text-align: center;
+    color: rgba(18, 133, 150, 1);
+    font-size: 50px;
+    font-weight: 700;
+}
 .borda{
-    margin-left:4vw;
+    margin-left:52vw;
     border-top:solid;
-    height: 1px;
-    width: 150px;
-    color:#6989964D;
+    height:1px;
+    width: 75px;
+    color:rgba(105, 137, 150, 0.3);
 }
-.imagens{
+.secondSection{
+     width: 60%;
+    height: 400px;
+      display: flex;
+     flex-wrap: wrap;
+     justify-content:space-around;
+     align-items: center;
+     margin-left: 500px;
+     }
+
+.secondSection figure{
+  background-color: rgba(18, 133, 150, 1);
+      
+}
+.secondSection figure img{
     display: flex;
+    justify-content: center;
 }
+
+
+
